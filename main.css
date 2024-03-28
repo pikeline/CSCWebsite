@@ -1,0 +1,64 @@
+/* CSS for the navigation bar */
+.navbar {
+    background-color: #f8f8f8;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-font {
+    /* todo: insert font here */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+
+.navbar ul li a:hover {
+    color: #666;
+}
+
+/* CSS for wrappers */
+#header {
+    text-align: center;
+    width: 80%;
+    margin: 50px auto 0 auto;
+    box-sizing: border-box;
+    padding: 50px 10%;
+}
+#header_wrapper{
+    width: 100%;
+    background-color: #666;
+}
+
+#footer{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 50px auto;
+    box-sizing: border-box;
+    padding: 50px 10%;
+}
+#footer_wrapper{
+    width: 100%;
+    background-color: #666;
+}
+
+#body{
+    width: 80%;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
